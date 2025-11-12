@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# AWS & Secrets
+.env
+.env.local
+.env.*.local
+aws-config.json
+lambda-config.json
+credentials.json
+
+# Build artifacts
+dist/
+build/
+*.zip
+
+# Logs
+logs/
+*.log
+
+# OS-specific
+.DS_Store
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+
+# Chrome extension unpacked (generated)
+**/CRX-*
+**/.crx
+
+# Temp files
+*.tmp
+*.bak
